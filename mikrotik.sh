@@ -1,0 +1,9 @@
+#!/bin/bash
+
+SSH_USER=$1
+SSH_USER_PASSWORD=$2
+SSH_HOST=$3
+COMMAN=$4
+
+sshpass -p $SSH_USER_PASSWORD ssh -l $SSH_USER $SSH_HOST "$COMMAN"
+
