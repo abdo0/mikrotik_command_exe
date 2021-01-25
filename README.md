@@ -1,5 +1,5 @@
 # mikrotik_command_exe
-A simplify command script to execute Mikrotik command through SSH in Linux terminal by passing arguments to it.
+A simplify command script to execute Mikrotik router command through SSH in Linux terminal by passing arguments to it.
 
 First, you need to install ``sshpass`` in your environment.
 
